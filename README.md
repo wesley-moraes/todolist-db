@@ -1,10 +1,10 @@
-# My Costs Database
+# To Do List Database
 
-## Deploy aplicação: [my-costs](https://my-costs-two.vercel.app/)
-## Repo aplicação: [my-costs-repo](https://github.com/wesley-moraes/my-costs)
+## Deploy aplicação: [To-Do-List](https://todolist-chi-fawn.vercel.app/)
+## Repo aplicação: [my-costs-repo](https://github.com/wesley-moraes/todolist)
 
 ## Descrição
-Este repositório contém a base de dados `db.json` utilizada pela aplicação [My Costs](https://my-costs-two.vercel.app/), que é uma aplicação web para gerenciamento de projetos desenvolvida em React.js. A base de dados é gerida pelo json-server para simular uma API RESTful.
+Este repositório contém a base de dados `db.json` utilizada pela aplicação [To Do List](https://todolist-chi-fawn.vercel.app/), que é uma aplicação web para gerenciamento de projetos desenvolvida em React.js. A base de dados é gerida pelo json-server para simular uma API RESTful.
 
 ## Hospedagem
 Foi hospedado no Render! Para que o Web-Service ficasse disponível para comunicação online.
@@ -13,8 +13,8 @@ Foi hospedado no Render! Para que o Web-Service ficasse disponível para comunic
 Para clonar e configurar o repositório, siga os passos abaixo:
 
 ```bash
-git clone https://github.com/wesley-moraes/my-costs-db.git
-cd my-costs-db
+git clone https://github.com/wesley-moraes/todolist-db.git
+cd todolist-db
 npm install
 ```
 
@@ -28,12 +28,12 @@ npm run start
 Por padrão, o json-server estará acessível em `http://localhost:5000`.
 
 ## Configuração
-Se necessário, você pode modificar o arquivo `db.json` para adicionar, remover ou atualizar os dados conforme sua necessidade. Certifique-se de que as rotas na aplicação principal [My Costs](https://my-costs-two.vercel.app/) estejam configuradas para apontar para o servidor correto.
+Se necessário, você pode modificar o arquivo `db.json` para adicionar ou remover os dados conforme sua necessidade. Certifique-se de que as rotas na aplicação principal [To Do List](https://todolist-chi-fawn.vercel.app/) estejam configuradas para apontar para o servidor correto.
 
 Exemplo de configuração de rota na aplicação React:
 
 ```bash
-fetch("http://localhost:5000/projects", { ... })
+API = "http://localhost:5000/projects"
 ```
 
 ## Contato
