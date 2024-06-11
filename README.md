@@ -1,7 +1,7 @@
 # To Do List Database
 
-## Deploy aplicação: [To-Do-List](https://todolist-chi-fawn.vercel.app/)
-## Repo aplicação: [my-costs-repo](https://github.com/wesley-moraes/todolist)
+## Deploy aplicação: [To Do List](https://todolist-chi-fawn.vercel.app/)
+## Repo aplicação: [To Do List](https://github.com/wesley-moraes/todolist)
 
 ## Descrição
 Este repositório contém a base de dados `db.json` utilizada pela aplicação [To Do List](https://todolist-chi-fawn.vercel.app/), que é uma aplicação web para gerenciamento de projetos desenvolvida em React.js. A base de dados é gerida pelo json-server para simular uma API RESTful.
